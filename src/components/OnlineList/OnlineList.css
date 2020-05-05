@@ -1,0 +1,25 @@
+.OuterOnlineList {
+  width: 13vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #95a5a6;
+  opacity: 0.7;
+  /* float: left; */
+}
+ul {
+  padding-left: 6%;
+}
+.HeaderOnlineList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  background: white;
+}
+@media only screen and (max-width: 668px) {
+  .OuterOnlineList {
+    width: 20vw;
+  }
+}

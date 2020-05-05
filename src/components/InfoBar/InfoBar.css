@@ -1,0 +1,22 @@
+.OuterInfoBox {
+  display: flex;
+  justify-content: space-between;
+  background: #2979ff;
+  border-radius: 4px 4px 0 0;
+  height: 10vh;
+  width: 100%;
+}
+.leftInforBox {
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  /* flex-direction: column; */
+}
+.rightInfoBox {
+  display: flex;
+  padding-right: 2%;
+  justify-content: flex-end;
+  align-items: center;
+}
